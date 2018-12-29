@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+
+    <string name="nav_today">Hôm nay</string>
+    <string name="nav_report">Báo cáo chi phí</string>
+    <string name="nav_categories">Danh mục cho chi tiêu</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="add_category">Thêm danh mục</string>
+    <string name="edit_category">Chỉnh sửa danh mục</string>
+    <string name="delete_category">Xóa danh mục</string>
+    <string name="delete_cat_dialog_msg">Tất cả các chi phí liên quan cũng sẽ bị xóa. Bạn có chắc chắn muốn xóa danh mục?</string>
+    <string name="category_deleted">Xóa danh mục thành công</string>
+    <string name="category_added">Thêm danh mục thành công</string>
+    <string name="category_updated">Cập nhật danh mục thành công</string>
+    <string name="category_name_string">Tên danh mục</string>
+
+    <string name="today_total">Tổng chi phí hôm nay</string>
+    <string name="today_expenses">Chi phí của hôm nay</string>
+
+    <string name="add_expense">Thêm mới</string>
+    <string name="edit_expense">Chỉnh sửa chi phí</string>
+    <string name="delete_expense">Xóa chi phí</string>
+    <string name="delete_exp_dialog_msg">Bạn có chắc chắn muốn xóa chi phí?</string>
+    <string name="expense_deleted">Xóa chi phí thành công</string>
+    <string name="expense_added">Thêm chi phí thành công</string>
+    <string name="expense_updated">Cập nhật chi phí thành công</string>
+    <string name="expense_category_name_string">Danh mục</string>
+    <plurals name="expenses_deleted_plurals_msg">
+        <item quantity="one">%d Chi phí đã xóa</item>
+        <item quantity="other">%d Chi phí đã xóa</item>
+    </plurals>
+
+    <string name="delete_string">Xóa</string>
+    <string name="done_string">Xong</string>
+    <string name="error_empty_field">Mục bbij bõ trống</string>
+    <string name="error_zero_value">Giá trị không hợp lệ</string>
+    <string name="error_incorrect_input">Nhập sai</string>
+
+    <string name="filter_expenses">Bộ lọc</string>
+    <string name="filter_option_today">Bởi hôm nay</string>
+    <string name="filter_option_week">Theo tuần</string>
+    <string name="filter_option_month">Theo tháng</string>
+    <string name="filter_option_date">Theo ngày</string>
+    <string name="filter_option_range">Theo phạm vi ngày</string>
+    <string name="filter_todays_expenses">Chi phí của hôm nay</string>
+    <string name="filter_weeks_expenses">Chi phí của tuần</string>
+    <string name="filter_months_expenses">Chi phí của tháng</string>
+    <string name="filter_date_expenses">Cho %s</string>
+    <string name="filter_date_range_expenses">%23,000₫s - %46,000₫s</string>
+
+    <string name="default_string">Mặc định</string>
+    <string name="no_categories_string">&#60;Không có danh mục&#62;</string>
+    <string name="no_expenses">Không có chi phí nào.</string>
+    <string name="total_string">Tổng</string>
+
+    <string name="pref_currency_title">Tiền tệ</string>
+    <string name="pref_currency_default">₫</string>
+    <string-array name="pref_currency_list_titles">
+        <item>Vietnam Dong</item>
+        <item>US Dollar</item>
+        <item>Euro</item>
+        <item>British Pound</item>
+        <item>Canadian Dollar</item>
+        <item>Australian Dollar</item>
+        <item>Ukrainian Hryvnia</item>
+        <item>Russian Rouble</item>
+
+    </string-array>
+    <string-array name="pref_currency_list_values">
+        <item>₫</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>CAD</item>
+        <item>AUD</item>
+        <item>UAH</item>
+        <item>RUB</item>
+    </string-array>
+
+    <!-- Predefined expense categories -->
+    <string name="cat_general">Chung</string>
+    <string name="cat_clothes">Quần áo</string>
+    <string name="cat_entertainment">Giải trí</string>
+    <string name="cat_food">Thức ăn</string>
+    <string name="cat_health">Sức khỏe</string>
+    <string name="cat_household">Hộ gia đình</string>
+    <string name="cat_hygiene">Vệ  sinh</string>
+    <string name="cat_pets">Thú cưng</string>
+    <string name="cat_presents">Quà tặng</string>
+    <string name="cat_sports">Thể thao</string>
+    <string name="cat_transportation">Vận chuyển</string>
+
+</resources>
